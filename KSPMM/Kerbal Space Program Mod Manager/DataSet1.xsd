@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="mods" msprop:Generator_TableClassName="modsDataTable" msprop:Generator_TableVarName="tablemods" msprop:Generator_TablePropName="mods" msprop:Generator_RowDeletingName="modsRowDeleting" msprop:Generator_UserTableName="mods" msprop:Generator_RowChangingName="modsRowChanging" msprop:Generator_RowEvHandlerName="modsRowChangeEventHandler" msprop:Generator_RowDeletedName="modsRowDeleted" msprop:Generator_RowEvArgName="modsRowChangeEvent" msprop:Generator_RowChangedName="modsRowChanged" msprop:Generator_RowClassName="modsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Title" msprop:Generator_ColumnVarNameInTable="columntitle" msprop:Generator_ColumnPropNameInRow="title" msprop:Generator_ColumnPropNameInTable="titleColumn" msprop:Generator_UserColumnName="Title" type="xs:string" minOccurs="0" />
+              <xs:element name="Version" msprop:Generator_ColumnVarNameInTable="columnversion" msprop:Generator_ColumnPropNameInRow="version" msprop:Generator_ColumnPropNameInTable="versionColumn" msprop:Generator_UserColumnName="Version" type="xs:string" minOccurs="0" />
+              <xs:element name="location" msprop:nullValue="_throw" msprop:Generator_ColumnPropNameInRow="location" msprop:Generator_ColumnVarNameInTable="columnlocation" msprop:Generator_ColumnPropNameInTable="locationColumn" msprop:Generator_UserColumnName="location" type="xs:string" minOccurs="0" />
+              <xs:element name="Enabled" msprop:Generator_ColumnVarNameInTable="columnEnabled" msprop:Generator_ColumnPropNameInRow="Enabled" msprop:Generator_ColumnPropNameInTable="EnabledColumn" msprop:Generator_UserColumnName="Enabled" type="xs:anyType" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Chat" msprop:Generator_TableClassName="ChatDataTable" msprop:Generator_TableVarName="tableChat" msprop:Generator_TablePropName="Chat" msprop:Generator_RowDeletingName="ChatRowDeleting" msprop:Generator_UserTableName="Chat" msprop:Generator_RowChangingName="ChatRowChanging" msprop:Generator_RowEvHandlerName="ChatRowChangeEventHandler" msprop:Generator_RowDeletedName="ChatRowDeleted" msprop:Generator_RowEvArgName="ChatRowChangeEvent" msprop:Generator_RowChangedName="ChatRowChanged" msprop:Generator_RowClassName="ChatRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nick" msprop:Generator_ColumnVarNameInTable="columnnick" msprop:Generator_ColumnPropNameInRow="nick" msprop:Generator_ColumnPropNameInTable="nickColumn" msprop:Generator_UserColumnName="nick" type="xs:string" minOccurs="0" />
+              <xs:element name="msg" msprop:Generator_ColumnVarNameInTable="columnmsg" msprop:Generator_ColumnPropNameInRow="msg" msprop:Generator_ColumnPropNameInTable="msgColumn" msprop:Generator_UserColumnName="msg" type="xs:string" minOccurs="0" />
+              <xs:element name="timestmp" msprop:Generator_ColumnVarNameInTable="columntimestmp" msprop:Generator_ColumnPropNameInRow="timestmp" msprop:Generator_ColumnPropNameInTable="timestmpColumn" msprop:Generator_UserColumnName="timestmp" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
